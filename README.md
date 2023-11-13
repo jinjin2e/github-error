@@ -13,3 +13,7 @@
 > push했지만 원격저장소에 올라가지 않고 Everything up-to-date 문구만 출력됨  
 > 여러 블로그 들을 찾아봤지만 본인과 문제 발생 원인이 다름 -> 해결 안됨  
 > 해결 - git commit -m "commit massage"  본래 협업을 할 때 커밋 메세지를 작성해서 가독성을 높이고 협업을 보다 쉽게해주는 코드임. 하지만 이 과정을 거치지 않고 push를 했을 때 Everything up-to-date 문구가 출력되는 것을 확인함.  
+
+## ssh:connect to host github.com port 22: Connection timed out fatal: Could cot read from remote respository
+> 학교 랜선에 연결되어있는 PC를 사용해 GIT BASH로 업로드를 시도할 경우 git push origin main 입력시 발생하는 오류
+> 해결 - 다른 포트로 전환해서 업로드하라는데 해결되지 않음. 추가 필요  
